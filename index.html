@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--   Copyright 2014 Amazon.com, Inc. or its affiliates. All Rights Reserved. -->
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Web App Starter Kit for Fire TV - Examples">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://amzn.github.io/stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://amzn.github.io/stylesheets/custom.css">
+    <style>
+    #download{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    </style>
+    <title>Web App Starter Kit for Fire TV - Examples</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/amzn/web-app-starter-kit-for-fire-tv">View on GitHub</a>
+
+          <h1 id="project_title">Web App Starter Kit for Fire TV Example Projects</h1>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <img id="logo_banner" src="https://avatars2.githubusercontent.com/u/8594673?v=3&s=200"/>
+      <section id="main_content" class="inner">
+        <div id="download">
+        Download all example projects: <br><a href="web-app-starter-kit-for-fire-tv-projects.zip">web-app-starter-kit-for-fire-tv-projects.zip</a>
+    </div>
+        <table>
+            <td>Simple Media App</td>
+            <td><a href="./simple/">https://amzn.github.io/web-app-starter-kit-for-fire-tv/simple</a></td>
+          </tr>
+          <tr>
+            <td>Themed Media App</td>
+            <td><a href="./simple-themes/">https://amzn.github.io/web-app-starter-kit-for-fire-tv/simple-themes</a></td>
+          </tr>
+          <tr>
+            <td>Live Media App</td>
+            <td><a href="./simple-live/">https://amzn.github.io/web-app-starter-kit-for-fire-tv/simple-live</a></td>
+          </tr>
+          <tr>
+            <td>Subcategories Media App</td>
+            <td><a href="./simple-subcategories/">https://amzn.github.io/web-app-starter-kit-for-fire-tv/simple-subcategories</a></td>
+          </tr>
+          <tr>
+            <td>mRSS Media App</td>
+            <td><a href="./mrss/">https://amzn.github.io/web-app-starter-kit-for-fire-tv/mrss</a></td>
+          </tr>
+          <tr>
+            <td>AWS YouTube Channel App</td>
+            <td><a href="./youtube-sections/">https://amzn.github.io/web-app-starter-kit-for-fire-tv/youtube-sections</a></td>
+          </tr>
+          <tr>
+            <td>AWS YouTube Channel App - Custom</td>
+            <td><a href="./youtube/">https://amzn.github.io/web-app-starter-kit-for-fire-tv/youtube</a></td>
+          </tr>
+          <tr>
+            <td>In-App Purchases Example App</td>
+            <td><a href="https://amzn.github.io/web-app-starter-kit-for-fire-tv/iap-entitlements/">https://amzn.github.io/web-app-starter-kit-for-fire-tv/iap-entitlements</a></td>
+          </tr>
+
+        </table>
+      </section>
+    </div>
+<script>
+    if(navigator.userAgent.match(/AFTB/i) || navigator.userAgent.match(/AFTM/i)){
+        document.getElementById('forkme_banner').setAttribute('style','display:none');
+        document.getElementById('download').setAttribute('style','display:none');
+        document.getElementById('project_title').setAttribute('style','font-size: 36px');
+        document.getElementById('logo_banner').setAttribute('style','width: 100px');
+        document.getElementById('main_content').setAttribute('style','max-width: 900px');
+    }
+</script>
+  </body>
+</html>
